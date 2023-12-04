@@ -9,7 +9,7 @@ setDate()
 function setDate(dir) {
   document.getElementById('date').innerText = dateString()
   
-  const count = n + ' Tentativa' 
+  const count = n + ' Tentativa' + (n > 1 ? 's' : '')
   document.getElementById('count').innerText = count  
 }
 
